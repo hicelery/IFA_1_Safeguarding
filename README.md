@@ -28,6 +28,8 @@ For desktops this will show as a 2x3 grid, and fold to a single 1x6 column on ta
 
 Immediately following a the 'action steps' a CTA with an external redirect is presented, giving the user immediate help should they need. This remains at 100% width across all screens to keep this as proximal as possible.
 
+Further information and additional resources are then presented, as this is less time sensitive than a user needing safeguarding assistance.
+
 ## Testing
 
 
