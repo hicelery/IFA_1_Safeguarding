@@ -29,9 +29,14 @@ https://www.loopearplugs.com/
 
 ## Solution Design Details
 
-This will use bootstrap to make our 3 main sections responsive, with 2 cards grouped by background colour.
+I will create a large and impactful landing hero, with a call-to-action button. This will set the tone for the website and allow an immediate re-direct for users that need safeguarding help. The main content of the page will appear immediately below this, encouraging the user to scroll.
+This image will use lower-quality/file size for smaller breakpoint screens to speed loading.
+
+The main content will use a bootstrap contrain to make our 3 content sections responsive, each with 2 cards grouped by background colour.
 For desktops this will show as a 2x3 grid, and fold to a single 1x6 column on tablets and below.
 <img width="1456" height="986" alt="image" src="https://github.com/user-attachments/assets/12c85a70-d213-43ac-b118-ed42ffcc53ef" />
+
+These will be full width and borderless to give the page a seamless feel.
 
 Immediately following a the 'action steps' a CTA with an external redirect is presented, giving the user immediate help should they need. This remains at 100% width across all screens to keep this as proximal as possible.
 
