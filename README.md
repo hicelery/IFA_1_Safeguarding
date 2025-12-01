@@ -23,9 +23,11 @@ References and inspirations include:
 https://talktofrank.com/
 
 https://www.180studios.com/
-![Landing page for 180 studios](image.png)
+<img width="1702" height="1322" alt="landing page for 180 studios" src="https://github.com/user-attachments/assets/53b588b4-c5ce-49db-b610-026ec2606e99" />
+
 https://www.loopearplugs.com/
-![Landing page for an e commerce website](image-1.png)
+<img width="1704" height="1324" alt="landing page for an ecommerce site" src="https://github.com/user-attachments/assets/ee62aa16-ec55-4d37-9db9-45e69c57daf1" />
+
 
 ## Solution Design Details
 
