@@ -9,3 +9,25 @@
     border: 2px solid white;
     background-color: lightgray;
 }
+/* Media queries */
+
+/* Small screens and up */
+
+@media screen and (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+}
+
+/* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+}
+
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+}
+
+/* xxl devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+}
