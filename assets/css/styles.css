@@ -20,8 +20,8 @@
 /* grid visualisation CSS for testing */
 .hero {
     position: relative;
-    height: 60vh;
-    background-image: url("../image/hero-image.png");
+    height: 85vh;
+    background-image: url("../image/unsplashhero.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

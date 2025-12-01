@@ -16,6 +16,17 @@ A project plan and outline:
 
 This project aims to use a sleek and bold design to highlight only the most important information.
 
+My target user group for this website are young adults. This will require a website that makes information approachable and reassuring, but does not belittle the user.
+
+To do this, I will lean into bold and simplistic design language, that is widely present in media that targets this user group.
+References and inspirations include:
+https://talktofrank.com/
+
+https://www.180studios.com/
+![Landing page for 180 studios](image.png)
+https://www.loopearplugs.com/
+![Landing page for an e commerce website](image-1.png)
+
 ## Solution Design Details
 
 This will use bootstrap to make our 3 main sections responsive, with 2 cards grouped by background colour.
