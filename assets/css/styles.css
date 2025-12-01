@@ -44,6 +44,7 @@ body {
     text-decoration: uppercase;
 }
 
+/* grid visualisation CSS for testing 
 .container,
 .row {
     border: 2px solid black;
@@ -52,6 +53,17 @@ body {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
+}
+*/
+/*pulls container to bottom of hero section*/
+/* centers content vertically in container */
+.content-container {
+    position: relative;
+    align-self: center;
+}
+
+#concern-banner {
+    border-bottom: 2px solid black;
 }
 /* Media queries */
 
