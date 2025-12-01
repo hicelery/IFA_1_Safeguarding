@@ -56,6 +56,7 @@
         </div>
     </nav>
     <main>
+        <!-- Add modal to hero-->
         <!-- hero image Container -->
         <section id="hero" class="hero">
             <div class="hero-content">
@@ -72,7 +73,7 @@
 
 
                 <!-- Row 1 -->
-                <div class="row g-4 p-5 bg-secondary text-light">
+                <div class="row g-4 bg-secondary text-light">
                     <!-- What is Safeguarding -->
                     <div class="col-md-6 p-3">
                         <h3 class="text-center display-5 zalando-sans-expanded-impact">What is Safeguarding</h3>
@@ -118,13 +119,14 @@
                     </div>
                 </div>
                 <!--row 4-->
-                <div class="row g-4 p-5">
-                    <!-- Get help row -->
-                    <div class="col-md-12 p-3">
-                        <span>
-                            <h5 class="display-6 zalando-sans-expanded-normal">Have a safeguarding concern?</h5>
-                            <a href="#" class="btn btn-primary">Get Help Now</a>
-                        </span>
+                <div class="row g-4 p-3">
+                    <!-- md breakpoint removed to always display side-by-side -->
+                    <div class="col-6 p-3">
+                        <h5 class="display-6 zalando-sans-expanded-normal">Have a safeguarding concern?</h5>
+
+                    </div>
+                    <div class="col-6 text-center p-3">
+                        <a href="#" class="btn btn-primary">Get Help Now</a>
                     </div>
                 </div>
 
@@ -133,13 +135,39 @@
                     <div class="col-md-6 p-3">
                         <h5 class="text-center display-5 zalando-sans-expanded-impact">Need More Information?</h5>
                     </div>
-                    <!--replace with carousel at low priority-->
+                    <!--Carousel for cards with extra resources-->
                     <div class="col-md-6 p-3">
-                        <p>Explore policies, training, and trusted guidance from reputable organizations.</p>
-                        <a href="#" class="btn btn-primary">Contact Safeguarding Lead</a>
+                        <!--replace with carousel at low priority-->
+                        <div id="infocarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item col-12 active">
+                                    <div class="card mb-3 text-center">
+                                        <img src="../assets/image/hero-image.png" class="card-img-top"
+                                            alt="A website screenshot for a board game cafe">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Info Title</h3>
+                                            <p class="card-text">Additional text about the resource or website.
+                                            </p>
+                                            <a href="https://github.com/hicelery/boardwalk-games"
+                                                class="btn btn-outline-secondary" target="_blank" rel="noopener">Visit
+                                                site</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#infocarousel"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#infocarousel"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </section>
     </main>
     <footer class="bg-light text-center py-4">
