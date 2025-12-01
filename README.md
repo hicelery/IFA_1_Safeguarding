@@ -15,7 +15,10 @@ A project plan and outline:
 ## Project Goals
 
 
-## Project Features
+This project aims to use a sleek and bold design to highlight only the most important information.
+This will use bootstrap to make our 3 main sections responsive, with 2 cards grouped by background colour.
+For desktops this will show as a 2x3 grid, and fold to a single 1x6 column on tablets and below.
+<img width="1456" height="986" alt="image" src="https://github.com/user-attachments/assets/12c85a70-d213-43ac-b118-ed42ffcc53ef" />
 
 
 ## Solution Design Details
