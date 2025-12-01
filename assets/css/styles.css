@@ -60,6 +60,13 @@ body {
 .content-container {
     position: relative;
     align-self: center;
+    margin: 0;
+}
+
+.infoblock {
+    min-height: 350px;
+    min-width: 100vw;
+    left: 0;
 }
 
 #concern-banner {
