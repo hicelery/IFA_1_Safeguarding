@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Safeguarding Info</title>
+    <!-- Google Fonts IMPORT-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+    </style>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -51,70 +55,96 @@
             </div>
         </div>
     </nav>
-
-    <!-- hero image Container -->
-
-    <h1 class="text-center mb-5">No Concern Is Too Small</h1>
-
-    <!-- Main Content Container -->
-    <div class="container py-5">
-
-
-        <!-- Row 1 -->
-        <div class="row g-4 mb-4">
-            <!-- What is Safeguarding -->
-            <div class="col-md-6">
-                <div class="card p-4">
-                    <h5>What is Safeguarding</h5>
-                    <div class="placeholder mb-3"></div>
-                    <p>Safeguarding means protecting people’s health, wellbeing, and human rights from harm and
-                        abuse.
-                    </p>
-                </div>
+    <main>
+        <!-- hero image Container -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1 class="text-center mb-5 hero-text bebas-neue-regular">No Concern Is Too Small</h1>
+                <a class="btn btn-primary zalando-sans-expanded-normal"><strong>Get help now.</strong></a>
             </div>
-            <!-- Signs to Watch For -->
-            <div class="col-md-6">
-                <div class="card p-4">
-                    <h5>Signs to Watch For</h5>
-                    <div class="row row-cols-2 g-2 icon-grid mb-3">
-                        <div class="col">Icon</div>
-                        <div class="col">Icon</div>
-                        <div class="col">Icon</div>
-                        <div class="col">Icon</div>
+        </section>
+
+
+
+        <section id="safeguarding_section">
+            <!-- Main Content Container -->
+            <div class="container-fluid">
+
+
+                <!-- Row 1 -->
+                <div class="row g-4 p-5 bg-secondary text-light">
+                    <!-- What is Safeguarding -->
+                    <div class="col-md-6 p-3">
+                        <h3 class="text-center display-5 zalando-sans-expanded-impact">What is Safeguarding</h3>
                     </div>
-                    <p>Look for patterns and trust your instincts if something feels off.</p>
+                    <div class="col-md-6 p-3">
+                        <p>Safeguarding means protecting people's health, wellbeing, and human rights from harm and
+                            abuse.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="row g-4 bg-dark text-light">
+                    <!-- Signs to Watch For -->
+                    <div class="col-md-6  p-3">
+                        <h3 class="text-center display-5 zalando-sans-expanded-impact">Signs to Watch For</h3>
+                    </div>
+                    <div class="col-md-6 p-3">
+                        <div class="row row-cols-2 g-2 icon-grid mb-3">
+                            <div class="col">Icon</div>
+                            <div class="col">Icon</div>
+                            <div class="col">Icon</div>
+                            <div class="col">Icon</div>
+                        </div>
+                        <p>Look for patterns and trust your instincts if something feels off.</p>
+                    </div>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="row g-4 bg-black text-light">
+                    <!-- Action Steps -->
+                    <div class="col-md-6 p-3">
+                        <h5 class="text-center display-5 zalando-sans-expanded-impact">Action Steps</h5>
+                    </div>
+                    <div class="col-md-6 p-3">
+                        <ul class="list-unstyled">
+                            <li><strong>1.</strong> Ensure immediate safety</li>
+                            <li><strong>2.</strong> Record observations</li>
+                            <li><strong>3.</strong> Report concerns</li>
+                            <li><strong>4.</strong> Follow up</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!--row 4-->
+                <div class="row g-4 p-5">
+                    <!-- Get help row -->
+                    <div class="col-md-12 p-3">
+                        <span>
+                            <h5 class="display-6 zalando-sans-expanded-normal">Have a safeguarding concern?</h5>
+                            <a href="#" class="btn btn-primary">Get Help Now</a>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Need More Information -->
+                <div class="row g-4">
+                    <div class="col-md-6 p-3">
+                        <h5 class="text-center display-5 zalando-sans-expanded-impact">Need More Information?</h5>
+                    </div>
+                    <!--replace with carousel at low priority-->
+                    <div class="col-md-6 p-3">
+                        <p>Explore policies, training, and trusted guidance from reputable organizations.</p>
+                        <a href="#" class="btn btn-primary">Contact Safeguarding Lead</a>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Row 2 -->
-        <div class="row g-4 mb-4">
-            <!-- Action Steps -->
-            <div class="col-md-6">
-                <div class="card p-4">
-                    <h5>Action Steps</h5>
-                    <ul class="list-unstyled">
-                        <li><strong>1.</strong> Ensure immediate safety</li>
-                        <li><strong>2.</strong> Record observations</li>
-                        <li><strong>3.</strong> Report concerns</li>
-                        <li><strong>4.</strong> Follow up</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Need More Information -->
-            <div class="col-md-6">
-                <div class="card p-4">
-                    <h5>Need More Information?</h5>
-                    <div class="placeholder mb-3"></div>
-                    <p>Explore policies, training, and trusted guidance from reputable organizations.</p>
-                    <a href="#" class="btn btn-primary">Contact Safeguarding Lead</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
+        </section>
+    </main>
+    <footer class="bg-light text-center py-4">
+        <p class="mb-0">&copy; placeholdertext.</p>
+    </footer>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">

@@ -1,4 +1,41 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+}
+
+.zalando-sans-expanded-normal {
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.zalando-sans-expanded-impact {
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: semibold;
+}
+
 /* grid visualisation CSS for testing */
+.hero {
+    position: relative;
+    height: 60vh;
+    background-image: url("../image/hero-image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-decoration: uppercase;
+}
 
 .container,
 .row {
