@@ -63,10 +63,12 @@ body {
     margin: 0;
 }
 
+/* Styling for each info section*/
 .infoblock {
-    min-height: 350px;
+    min-height: 400px;
     min-width: 100vw;
     left: 0;
+    margin-bottom: 0rem;
 }
 
 #concern-banner {
@@ -77,6 +79,9 @@ body {
 /* Small screens and up */
 
 @media screen and (min-width: 576px) {
+    .infoblock {
+        min-height: 350px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
