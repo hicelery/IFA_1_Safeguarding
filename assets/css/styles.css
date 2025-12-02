@@ -71,7 +71,7 @@ section {
 #hero {
     position: relative;
     height: 85vh;
-    background: url("../image/testhero.jpg") no-repeat center center;
+    background: url("../image/testhero.webp") no-repeat center center;
     background-size: cover;
 }
 
