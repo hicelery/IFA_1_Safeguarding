@@ -39,11 +39,12 @@ section {
     padding-right: calc(1.5rem * 0.5);
     padding-left: calc(1.5rem * 0.5);
 }
+
 /* grid visualisation CSS for testing */
 .hero {
     position: relative;
     height: 85vh;
-    background-image: url("../image/unsplashhero.webp");
+    background-image: url("../image/testhero.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,13 +71,6 @@ section {
     background-color: lightgray;
 }
 */
-/*pulls container to bottom of hero section*/
-/* centers content vertically in container */
-.content-container {
-    position: relative;
-    align-self: center;
-    margin: 0;
-}
 
 /* Styling for each info section*/
 .infoblock {
@@ -89,6 +83,8 @@ section {
 
 #concern-banner {
     border-bottom: 2px solid black;
+    max-height: 300px;
+    padding-top: 0;
 }
 /* Media queries */
 
