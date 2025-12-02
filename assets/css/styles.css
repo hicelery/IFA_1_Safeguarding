@@ -29,8 +29,15 @@ section {
     height: max-content;
 }
 
+/*overrides to bootstrap default margin*/
+.row {
+    margin-top: 0;
+}
+
 .content-container {
     height: auto;
+    padding-right: calc(1.5rem * 0.5);
+    padding-left: calc(1.5rem * 0.5);
 }
 /* grid visualisation CSS for testing */
 .hero {
@@ -88,9 +95,6 @@ section {
 /* Small screens and up */
 
 @media screen and (min-width: 576px) {
-    .infoblock {
-        min-height: 350px;
-    }
 }
 
 /* Medium devices (tablets, 768px and up) */
