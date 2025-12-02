@@ -34,9 +34,9 @@ section {
 .row {
     margin-top: 0 !important;
 }
-
+/*not important so that individual columns can override if needed*/
 .row > * {
-    margin-top: 0 !important;
+    margin-top: 0;
 }
 
 .content-container {
@@ -87,9 +87,14 @@ section {
     z-index: 2;
 }
 
+/*add default bs padding to row container*/
+#concern_section {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 #concern-banner {
     border-bottom: 2px solid black;
-    max-height: 300px;
     padding-top: 0;
 }
 /* Media queries */
@@ -105,6 +110,9 @@ section {
 
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
+    #concern-banner {
+        text-align: left !important;
+    }
 }
 
 /* xl devices (large desktops, 1200px and up) */
