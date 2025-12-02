@@ -68,3 +68,10 @@ I have used LLM AI tools to stream line the development process with the followi
 These streamedline the more repetitive development tasks, and in particular building a boilerplate from a wireframe very quickly set up a working base to allow me to concentrate on content and feature development. However, I noticed the models did struggle with mark up and comments present on the wireframe, so some manual intervention was required to have this functioning correctly.
 
 Image creation allowed me to draw a rough draft in paint, and use copilot to render this as a professional quality asset quickly and with no cost. Content updates were some of the most impactful uses of AI in this project from an efficiency perspective, but I note generative text in particular is not a widely deployable use case for commercial sites.
+
+## Use of external resources
+
+https://cssgradient.io/ - To generate css code for background gradients
+https://unsplash.com/ - For hero image assets
+
+No other external code was used in this project.
