@@ -69,6 +69,11 @@ section {
     align-items: center !important /* Override Bootstrap align-items for rows */;
 }
 
+/*add custom table class to override bootstrap table bg color*/
+.table_custom {
+    --bs-table-bg: transparent !important;
+}
+
 #hero {
     position: relative;
     height: 85vh;
@@ -86,6 +91,9 @@ section {
     text-decoration: uppercase;
     width: 100%;
     z-index: 2;
+}
+#key_elements_table {
+    background: none !important;
 }
 
 /*add default bs padding to row container*/
