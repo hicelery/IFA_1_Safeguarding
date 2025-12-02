@@ -423,31 +423,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <!-- Temporary overflow-detection script: highlights and logs elements that overflow the viewport. -->
-    <script>
-        (function () {
-            // Run after load to ensure layout is complete
-            window.addEventListener('load', function () {
-                const offenders = [];
-                document.querySelectorAll('*').forEach(el => {
-                    const r = el.getBoundingClientRect();
-                    if (r.right > window.innerWidth || r.left < 0) {
-                        offenders.push({ el: el, rect: r });
-                        // visually highlight
-                        el.style.outline = '3px solid rgba(255,0,0,0.6)';
-                    }
-                });
-                if (offenders.length) {
-                    console.group('Overflow detection: elements extending past viewport');
-                    offenders.forEach(o => console.log(o.el, o.rect));
-                    console.groupEnd();
-                    console.info('Overflow detection: highlighted elements with red outline. Remove this script after debugging.');
-                } else {
-                    console.info('Overflow detection: no overflowing elements detected.');
-                }
-            });
-        })();
-    </script>
+
 </body>
 
 </html>
