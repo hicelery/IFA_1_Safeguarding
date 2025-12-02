@@ -20,11 +20,8 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!--nav bar-->
-
-    <!-- Navigation -->
-    <!-- Find icon and update links+alt text-->
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
-        <div class="container-fluid mx-3">
+        <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="" alt="Homepage" class="logo" />
             </a>
@@ -54,12 +51,12 @@
             </div>
         </div>
     </nav>
-    <main>
+    <header>
         <!-- Add modal to hero-->
         <!-- hero image Container -->
         <section id="hero" class="hero">
             <div id="hero-content">
-                <h1 class="text-center mb-5 hero-text zalando-sans-expanded-normal display-1">
+                <h1 class="text-center m-5 hero-text zalando-sans-expanded-normal display-1">
                     No Concern Is Too Small
                 </h1>
                 <a class="btn btn-primary zalando-sans-expanded-normal" data-bs-toggle="modal"
@@ -107,7 +104,8 @@
             </div>
 
         </section>
-
+    </header>
+    <main>
         <section id="safeguarding_section">
             <!--Content Container -->
             <div class="content-container">
@@ -241,8 +239,8 @@
                     </h5>
                 </div>
                 <div class="col-md-6 mt-0 text-center p-md-5">
-                    <image src="../assets/image/illugraphic.png" alt="An illustration of a person looking comforted"
-                        style="width: 60%;" />
+                    <img src="../assets/image/illugraphic.png" alt="An illustration of a person looking comforted"
+                        class="img-fluid" loading="lazy" style="max-width: 60%;" />
                 </div>
                 <div class="col-md-12 mt-2 text-center">
                     <a href="#" class="btn btn-primary">Get Help Now</a>
@@ -252,60 +250,62 @@
         </section>
 
         <!-- Important Contacts Card Carousel - displays as block on large screen -->
-        <div class="row g-4 infoblock">
-            <div class="col-12 p-5">
-                <h5 class="text-center display-5 zalando-sans-expanded-impact">
-                    Your safeguarding contacts
-                </h5>
-                <p class="lead text-center p-2">
-                    Please contact your safeguarding leads for assistance or
-                    any concerns.
-                </p>
-            </div>
-            <!--Carousel for cards with contact info for smaller screens-->
-            <div class="col-12 p-5 d-md-none">
+        <div class="content-container">
+            <div class="row g-4 infoblock">
+                <div class="col-12 p-5">
+                    <h5 class="text-center display-5 zalando-sans-expanded-impact">
+                        Your safeguarding contacts
+                    </h5>
+                    <p class="lead text-center p-2">
+                        Please contact your safeguarding leads for assistance or
+                        any concerns.
+                    </p>
+                </div>
+                <!--Carousel for cards with contact info for smaller screens-->
+                <div class="col-12 p-5 d-md-none">
 
-                <div id="infocarousel" class="carousel slide carousel-fade " data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item col-12 active">
-                            <div class="card mb-3 text-center">
-                                <img src="../assets/image/hero-image.png" class="card-img-top"
-                                    alt="A photo of a person smiling" />
-                                <div class="card-body">
-                                    <h3 class="card-title">Name 1</h3>
-                                    <p class="card-text">
-                                        Role and contact details.
-                                    </p>
-                                    <a href="https://www.discord.com" class="btn btn-outline-secondary" target="_blank"
-                                        rel="noopener">Contact on Discord</a>
+                    <div id="infocarousel" class="carousel slide carousel-fade " data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card mb-3 text-center">
+                                    <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
+                                        alt="A photo of a person smiling" loading="lazy" />
+                                    <div class="card-body">
+                                        <h3 class="card-title">Name 1</h3>
+                                        <p class="card-text">
+                                            Role and contact details.
+                                        </p>
+                                        <a href="https://www.discord.com" class="btn btn-outline-secondary"
+                                            target="_blank" rel="noopener noreferrer">Contact on Discord</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item col-12 active">
-                            <div class="card mb-3 text-center">
-                                <img src="../assets/image/hero-image.png" class="card-img-top"
-                                    alt="A photo of a person smiling" />
-                                <div class="card-body">
-                                    <h3 class="card-title">Name 2</h3>
-                                    <p class="card-text">
-                                        Role and contact details.
-                                    </p>
-                                    <a href="https://www.discord.com" class="btn btn-outline-secondary" target="_blank"
-                                        rel="noopener">Contact on Discord</a>
+                            <div class="carousel-item">
+                                <div class="card mb-3 text-center">
+                                    <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
+                                        alt="A photo of a person smiling" loading="lazy" />
+                                    <div class="card-body">
+                                        <h3 class="card-title">Name 2</h3>
+                                        <p class="card-text">
+                                            Role and contact details.
+                                        </p>
+                                        <a href="https://www.discord.com" class="btn btn-outline-secondary"
+                                            target="_blank" rel="noopener noreferrer">Contact on Discord</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item col-12 active">
-                            <div class="card mb-3 text-center">
-                                <img src="../assets/image/hero-image.png" class="card-img-top"
-                                    alt="A photo of a person smiling" />
-                                <div class="card-body">
-                                    <h3 class="card-title">Name 3</h3>
-                                    <p class="card-text">
-                                        Role and contact details.
-                                    </p>
-                                    <a href="https://www.discord.com" class="btn btn-outline-secondary" target="_blank"
-                                        rel="noopener">Contact on Discord</a>
+                            <div class="carousel-item">
+                                <div class="card mb-3 text-center">
+                                    <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
+                                        alt="A photo of a person smiling" loading="lazy" />
+                                    <div class="card-body">
+                                        <h3 class="card-title">Name 3</h3>
+                                        <p class="card-text">
+                                            Role and contact details.
+                                        </p>
+                                        <a href="https://www.discord.com" class="btn btn-outline-secondary"
+                                            target="_blank" rel="noopener noreferrer">Contact on Discord</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -324,52 +324,53 @@
             </div>
 
             <!-- display as cards for larger than medium screens, no display for smaller screens -->
-            <div class="container d-none d-md-block">
+            <div class="col-12 d-none d-md-block">
                 <div class="row px-4">
                     <!-- Two columns for desktop, 3 for lg screens-->
                     <div class="col-md-6 col-lg-4">
                         <div class="card text-center">
-                            <img src="../assets/image/hero-image.png" class="card-img-top"
-                                alt="A photo of a person smiling" />
+                            <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
+                                alt="A photo of a person smiling" loading="lazy" />
                             <div class="card-body">
                                 <h3 class="card-title">Name 1</h3>
                                 <p class="card-text">Role and contact details.</p>
                                 <a href="https://www.discord.com" class="btn btn-outline-secondary" target="_blank"
-                                    rel="noopener">Contact on Discord</a>
+                                    rel="noopener noreferrer">Contact on Discord</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-6 col-lg-4">
                         <div class="card text-center">
-                            <img src="../assets/image/hero-image.png" class="card-img-top"
-                                alt="A photo of a person smiling" />
+                            <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
+                                alt="A photo of a person smiling" loading="lazy" />
                             <div class="card-body">
                                 <h3 class="card-title">Name 2</h3>
                                 <p class="card-text">Role and contact details.</p>
                                 <a href="https://www.discord.com" class="btn btn-outline-secondary" target="_blank"
-                                    rel="noopener">Contact on Discord</a>
+                                    rel="noopener noreferrer">Contact on Discord</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-6 col-lg-4">
                         <div class="card text-center">
-                            <img src="../assets/image/hero-image.png" class="card-img-top"
-                                alt="A photo of a person smiling" />
+                            <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
+                                alt="A photo of a person smiling" loading="lazy" />
                             <div class="card-body">
                                 <h3 class="card-title">Name 3</h3>
                                 <p class="card-text">Role and contact details.</p>
                                 <a href="https://www.discord.com" class="btn btn-outline-secondary" target="_blank"
-                                    rel="noopener">Contact on Discord</a>
+                                    rel="noopener noreferrer">Contact on Discord</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Need More Information -->
-            <!-- Comment out
+        <!-- Need More Information -->
+        <!-- Comment out
         <div class="row g-4 infoblock">
             <div class="col-12 p-5">
                 <h5 class="text-center display-5 zalando-sans-expanded-impact">
@@ -422,6 +423,31 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!-- Temporary overflow-detection script: highlights and logs elements that overflow the viewport. -->
+    <script>
+        (function () {
+            // Run after load to ensure layout is complete
+            window.addEventListener('load', function () {
+                const offenders = [];
+                document.querySelectorAll('*').forEach(el => {
+                    const r = el.getBoundingClientRect();
+                    if (r.right > window.innerWidth || r.left < 0) {
+                        offenders.push({ el: el, rect: r });
+                        // visually highlight
+                        el.style.outline = '3px solid rgba(255,0,0,0.6)';
+                    }
+                });
+                if (offenders.length) {
+                    console.group('Overflow detection: elements extending past viewport');
+                    offenders.forEach(o => console.log(o.el, o.rect));
+                    console.groupEnd();
+                    console.info('Overflow detection: highlighted elements with red outline. Remove this script after debugging.');
+                } else {
+                    console.info('Overflow detection: no overflowing elements detected.');
+                }
+            });
+        })();
+    </script>
 </body>
 
 </html>
