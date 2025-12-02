@@ -24,6 +24,14 @@
 body {
     font-family: var(--primary-font);
 }
+
+section {
+    height: max-content;
+}
+
+.content-container {
+    height: auto;
+}
 /* grid visualisation CSS for testing */
 .hero {
     position: relative;
@@ -65,10 +73,11 @@ body {
 
 /* Styling for each info section*/
 .infoblock {
-    min-height: 400px;
-    min-width: 100vw;
+    min-width: 0;
     left: 0;
     margin-bottom: 0rem;
+    min-height: max-content;
+    align-items: center !important /* Override Bootstrap align-items for rows */;
 }
 
 #concern-banner {

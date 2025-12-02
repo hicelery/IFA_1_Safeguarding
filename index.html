@@ -61,9 +61,53 @@
         <section id="hero" class="hero">
             <div class="hero-content">
                 <h1 class="text-center mb-5 hero-text bebas-neue-regular">No Concern Is Too Small</h1>
-                <a class="btn btn-primary zalando-sans-expanded-normal"><strong>Get help now.</strong></a>
+                <a class="btn btn-primary zalando-sans-expanded-normal" data-bs-toggle="modal"
+                    data-bs-target="#heroModal"><strong>Get help now.</strong></a>
             </div>
+            <!-- Hero image modal pop-up-->
+            <div class="modal" id="heroModal" tabindex="-1" aria-labelledby="heroModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Get Help Now</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <form href="#" method="GET">
+                            <div class="modal-body">
+
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Contact Email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" placeholder="Your Message"></textarea>
+
+                                    <p>All enquiries will be handled with confidentiality and care.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!--max content for -->
+
+
         </section>
+
 
 
 
@@ -75,105 +119,132 @@
                 <!-- Row 1 -->
                 <div class="row g-4 bg-secondary text-light infoblock">
                     <!-- What is Safeguarding -->
-                    <div class="col-md-6 p-md-5">
+                    <div class="col-md-5 p-md-5">
                         <h3 class="text-center display-5 zalando-sans-expanded-impact">What is Safeguarding?</h3>
                     </div>
-                    <div class="col-md-6 p-md-5">
+                    <div class="col-md-7 p-md-5">
                         <p>
-                            Safeguarding means protecting people, providing safe and effective care and includes all
-                            procedures designed to
-                            prevent harm. Safeguarding is for everyone. It protects people's health, wellbeing, and
-                            rights from harm and
-                            abuse.
+                            Safeguarding means protecting people from abuse, neglect and harm. Safeguarding is for
+                            everyone, it's everyone's responsibility to ensure that individuals, especially those who
+                            are vulnerable, are safe and their well-being is promoted.
                         </p>
-                    </div>
-                </div>
 
-                <!-- Row 2 -->
-                <div class="row g-4 bg-dark text-light infoblock">
-                    <!-- Signs to Watch For -->
-                    <div class="col-md-4 p-md-5">
-                        <h3 class="text-center display-5 zalando-sans-expanded-impact">Signs to Watch For</h3>
-                    </div>
-                    <div class="col-md-8 p-md-5">
-                        <div class="row row-cols-2 g-2 icon-grid mb-3">
-                            <div class="col">Icon</div>
-                            <div class="col">Icon</div>
-                            <div class="col">Icon</div>
-                            <div class="col">Icon</div>
-                        </div>
-                        <p>Look for patterns and trust your instincts if something feels off.</p>
-                    </div>
-                </div>
-
-                <!-- Row 3 -->
-                <div class="row g-4 bg-black text-light infoblock">
-                    <!-- Action Steps -->
-                    <div class="col-md-6 p-md-5">
-                        <h5 class="text-center display-5 zalando-sans-expanded-impact">Action Steps</h5>
-                    </div>
-                    <div class="col-md-6 p-md-5">
-                        <ul class="list-unstyled">
-                            <li>
-                                <strong>1. Ensure immediate safety.</strong> In an emergency, call 999 or your local
-                                emergency number immediately.
-                            </li>
-                            <li><strong>2. Record observations</strong></li>
-                            <li><strong>3. Report concerns</strong></li>
-                            <li><strong>4. Follow up</strong></li>
+                        <h3>Key elements</h3>
+                        <ul>
+                            <li><strong>Prevention:</strong> safe recruitment, training, risk assessments and creating
+                                safe environments.</li>
+                            <li><strong>Recognition:</strong> understanding indicators of physical, emotional, financial
+                                or sexual abuse and neglect.</li>
+                            <li><strong>Response:</strong> clear reporting routes, timely investigations and
+                                proportionate action to protect people.</li>
+                            <li><strong>Empowerment:</strong> involving individuals in decisions about their care and
+                                promoting independence.</li>
+                            <li><strong>Confidentiality:</strong> sharing information only when necessary to protect
+                                someone and keeping accurate records.</li>
                         </ul>
-
                     </div>
                 </div>
-                <!--row 4-->
-                <div id="concern-banner" class="row g-4 p-5 infoblock">
-                    <!-- md breakpoint removed to always display side-by-side -->
-                    <div class="col-md-6 p-md-5">
-                        <h5 class="display-6 zalando-sans-expanded-normal">Have a safeguarding concern?</h5>
-                    </div>
-                    <div class="col-md-6 p-md-5" style="align-self: center;">
-                        <a href="#" class="btn btn-primary">Get Help Now</a>
-                    </div>
+            </div>
+        </section>
+        <div class="container content-container">
+            <!-- Row 2 -->
+            <div class="row g-4 bg-dark text-light infoblock">
+                <!-- Signs to Watch For -->
+                <div class="col-md-5 p-md-5">
+                    <h3 class="text-center display-5 zalando-sans-expanded-impact">Signs to Watch For</h3>
                 </div>
+                <div class="col-md-7 p-md-5">
+                    <div class="row row-cols-2 g-2 icon-grid mb-3">
 
-                <!-- Need More Information -->
-                <div class="row g-4 infoblock">
-                    <div class="col-md-6 p-5">
-                        <h5 class="text-center display-5 zalando-sans-expanded-impact">Need More Information?</h5>
+                        <div class="col"><strong>Withdrawal</strong></div>Sudden changes in behavior, mood swings,
+                        or
+                        withdrawal from social activities.
+                        <div class="col"><strong>Behavioral Changes</strong></div>Changes in eating or sleeping
+                        patterns, anxiety, or
+                        fear of certain situations.
+                        <div class="col"><strong>Physical Signs</strong></div>Unexplained injuries, changes in
+                        appearance, or signs
+                        of neglect.
+                        <div class="col"><strong>Fearfulness</strong></div>Being unusually fearful or anxious around
+                        certain individuals or situations.
+
                     </div>
-                    <!--Carousel for cards with extra resources-->
-                    <div class="col-md-6 p-md-5">
-                        <!--replace with carousel at low priority-->
-                        <div id="infocarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item col-12 active">
-                                    <div class="card mb-3 text-center">
-                                        <img src="../assets/image/hero-image.png" class="card-img-top"
-                                            alt="A website screenshot for a board game cafe">
-                                        <div class="card-body">
-                                            <h3 class="card-title">Info Title</h3>
-                                            <p class="card-text">Additional text about the resource or website.
-                                            </p>
-                                            <a href="https://github.com/hicelery/boardwalk-games"
-                                                class="btn btn-outline-secondary" target="_blank" rel="noopener">Visit
-                                                site</a>
-                                        </div>
+                    <p>Look for patterns and trust your instincts if something feels off.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container content-container">
+            <!-- Row 3 -->
+            <div class="row g-4 bg-black text-light infoblock">
+                <!-- Action Steps -->
+                <div class="col-md-5 p-md-5">
+                    <h5 class="text-center display-5 zalando-sans-expanded-impact">Action Steps</h5>
+                </div>
+                <div class="col-md-7 p-md-5">
+                    <ul class="list-unstyled">
+                        <li>
+                            <strong>1. Ensure immediate safety.</strong> In an emergency, call 999 or your local
+                            emergency number immediately.
+                        </li>
+                        <li><strong>2. Record observations</strong></li>
+                        <li><strong>3. Report concerns</strong></li>
+                        <li><strong>4. Follow up</strong></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <section id="concern_section">
+            <!--row 4-->
+            <div id="concern-banner" class="row g-4 p-5 infoblock">
+                <!-- md breakpoint removed to always display side-by-side -->
+                <div class="col-md-7 p-md-5">
+                    <h5 class="display-6 zalando-sans-expanded-normal">Have a safeguarding concern?</h5>
+                </div>
+                <div class="col-md-5 p-md-5" style="align-self: center;">
+                    <a href="#" class="btn btn-primary">Get Help Now</a>
+                </div>
+            </div>
+
+            <!-- Need More Information -->
+            <div class="row g-4 infoblock">
+                <div class="col-md-6 p-5">
+                    <h5 class="text-center display-5 zalando-sans-expanded-impact">Need More Information?</h5>
+                </div>
+                <!--Carousel for cards with extra resources-->
+                <div class="col-md-6 p-md-5">
+                    <!--replace with carousel at low priority-->
+                    <div id="infocarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item col-12 active">
+                                <div class="card mb-3 text-center">
+                                    <img src="../assets/image/hero-image.png" class="card-img-top"
+                                        alt="A website screenshot for a board game cafe">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Info Title</h3>
+                                        <p class="card-text">Additional text about the resource or website.
+                                        </p>
+                                        <a href="https://github.com/hicelery/boardwalk-games"
+                                            class="btn btn-outline-secondary" target="_blank" rel="noopener">Visit
+                                            site</a>
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#infocarousel"
-                                    data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#infocarousel"
-                                    data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
                             </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#infocarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#infocarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
     </main>
     <footer class="bg-light text-center py-4">
