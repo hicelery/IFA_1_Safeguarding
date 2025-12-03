@@ -52,8 +52,7 @@
         </div>
     </nav>
     <header>
-        <!-- Add modal to hero-->
-        <!-- hero image Container -->
+        <!-- hero section -->
         <section id="hero" class="hero">
             <div id="hero-content">
                 <h1 class="text-center m-5 hero-text zalando-sans-expanded-normal display-1">
@@ -106,10 +105,10 @@
         </section>
     </header>
     <main>
+        <!-- What is Safeguarding Section-->
         <section id="safeguarding_section">
             <!--Content Container -->
             <div class="content-container">
-                <!-- Row 1 -->
                 <div class="row g-4 text-dark infoblock" style="background: linear-gradient(
             90deg,
             rgba(2, 0, 36, 0.1) 0%,
@@ -132,6 +131,7 @@
                         <h3 class="display-4 zalando-sans-expanded-impact">Key elements</h3>
 
                     </div>
+                    <!-- Key elements table -->
                     <div class="col-12 p-5">
                         <div class="table-responsive">
                             <table class="table table-borderless table_custom">
@@ -183,17 +183,18 @@
                 </div>
             </div>
         </section>
+        <!--Signs to watch section-->
         <section id="signs_section">
             <div class="content-container">
-                <!-- Row 2 -->
                 <div id="signs" class="row g-4 text-light infoblock" style="background-color: rgb(6, 23, 82)">
-                    <!-- Signs to Watch For -->
+                    <!-- Left aligned header-->
                     <div class="col-lg-5 p-5">
                         <h3 class="text-center display-5 zalando-sans-expanded-impact">
                             Signs to Watch
                         </h3>
                     </div>
                     <!--BS grid for image, with title and caption-->
+                    <!--split grid into 1 column for mobile, 2 for small and 4 for extra extra large screens-->
                     <div class="col-lg-7 p-5">
                         <div class="row row-cols-1 row-cols-md-2 row-cols-xxl-4 g-4">
                             <div class="col">
@@ -236,6 +237,7 @@
                         </div>
 
                     </div>
+                    <!-- Bottom centered text-->
                     <div class="col text-center">
                         <p class="mb-3 lead">Look for patterns and trust your instincts if something feels
                             off.</p>
@@ -243,16 +245,17 @@
                 </div>
             </div>
         </section>
+        <!-- Action Steps section -->
         <section id="action_section">
             <div class="content-container">
-                <!-- Row 3 -->
                 <div id="action" class="row g-4 bg-black text-light infoblock">
-                    <!-- Action Steps -->
+                    <!-- Header. Left side on large screens -->
                     <div class="col-lg-5 p-5">
                         <h5 class="text-center display-5 zalando-sans-expanded-impact">
                             Action Steps
                         </h5>
                     </div>
+                    <!--  List of action steps. Right side on large screens -->
                     <div class="col-lg-7 p-5">
                         <ul class="list-unstyled">
                             <li>
@@ -268,21 +271,21 @@
                 </div>
             </div>
         </section>
+        <!-- Safeguarding Concern Section -->
         <section id="concern_section">
-            <!--row 4-->
             <div id="concern-banner" class="row g-4 text-center infoblock p-5 p-md-3">
-                <!-- md breakpoint removed to always display side-by-side -->
-                <div class="col-md-6 mt-0 p-md-5">
+                <div class="col-lg-6 mt-0 p-md-5">
                     <h5 class="display-6 zalando-sans-expanded-normal">
                         Have a safeguarding concern?
                     </h5>
                 </div>
-                <div class="col-md-6 mt-0 text-center p-md-5">
+                <div class="col-lg-6 mt-0 text-center p-md-5">
                     <img src="../assets/image/illugraphic.png" alt="An illustration of a person looking comforted"
                         class="img-fluid" loading="lazy" style="max-width: 60%;" />
                 </div>
                 <div class="col-md-12 mt-2 text-center">
-                    <a href="#" class="btn btn-primary">Get Help Now</a>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#heroModal">Get Help
+                        Now</a>
                 </div>
 
             </div>
@@ -291,7 +294,7 @@
         <!-- Important Contacts Card Carousel - displays as block on large screen -->
         <div class="content-container">
             <div class="row g-4 infoblock">
-                <div class="col-12 p-5">
+                <div class="col-12 py-5">
                     <h5 class="text-center display-5 zalando-sans-expanded-impact">
                         Your safeguarding contacts
                     </h5>
@@ -300,7 +303,7 @@
                         any concerns.
                     </p>
                 </div>
-                <!--Carousel for cards with contact info for smaller screens-->
+                <!--Display Carousel for cards with contact info for smaller screens with autoplay-->
                 <div class="col-12 p-5 d-md-none">
 
                     <div id="infocarousel" class="carousel slide carousel-fade " data-bs-ride="carousel">
