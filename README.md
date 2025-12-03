@@ -63,11 +63,18 @@ I have used LLM AI tools to stream line the development process with the followi
 -   Uploading website wireframe to create a boilerplate for the page structure
 -   Creation of image assets
 -   Inline edits with github copilot to autocomplete content.
--   Minor debugging bootstrap grid layout issues through copilot inline chat.
+-   Debugging bootstrap grid layout issues through copilot inline chat.
+-   Refactoring completed code.
 
 These streamedline the more repetitive development tasks, and in particular building a boilerplate from a wireframe very quickly set up a working base to allow me to concentrate on content and feature development. However, I noticed the models did struggle with mark up and comments present on the wireframe, so some manual intervention was required to have this functioning correctly.
 
-Image creation allowed me to draw a rough draft in paint, and use copilot to render this as a professional quality asset quickly and with no cost. Content updates were some of the most impactful uses of AI in this project from an efficiency perspective, but I note generative text in particular is not a widely deployable use case for commercial sites.
+Image creation allowed me to draw a rough draft in paint, and use copilot to render this as a professional quality asset quickly and with no cost. Content updates were highly impactful uses of AI in this project from an efficiency perspective, but I note generative text in particular is not a widely deployable use case for commercial sites.
+
+Using copilot in IDE for debugging overflow issues saved a wealth of time. I described the issue and this returned a debug js script that would highlight the problematic elements, allowing me to much faster diagnose the root cause.
+
+I had also used copilot to refactor sections of completed code in order to create quick mock-ups of layout changes. This enabled me to accelerate design decisions before applying the finishing styling tweaks.
+
+In future projects I would continue to leverage AI for debugging, asset creation and code refactoring. These represent the largest and most universally applicable uses present in my project. Whilst an initial boilerplate certainly saved time on this project, as project size and complexities increase there will be a greater propensity for AI to make mistakes and fail to accurately recreate the wireframe content. This would be particularly apparent when showing the same screen multiple times on a wireframe describe a user journey (e.g clicking a button that expands a section).
 
 ## Use of external resources
 
