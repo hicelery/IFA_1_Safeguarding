@@ -233,7 +233,7 @@ section:target {
         max-width: 25%;
     }
     #signsgrid {
-        min-height: 650px;
+        min-height: 680px;
         align-items: center;
     }
 }
