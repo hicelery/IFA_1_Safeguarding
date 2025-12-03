@@ -125,7 +125,6 @@ section:target {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    min-height: 360px;
 }
 
 #signsgrid img {
@@ -193,18 +192,22 @@ section:target {
     .table_custom {
         max-width: 1080px;
     }
+
+    .signs_col {
+        min-height: 350px;
+    }
 }
 
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-    #signsgrid {
-        max-height: 100vh;
-    } /*maintain max height for signs section*/
     #signsgrid img {
         max-height: 40vh;
         width: auto;
         height: auto;
         object-fit: contain;
+    }
+    .signs_col {
+        min-height: 360px;
     }
 
     /* Allow concern section to grow relative to viewport height rather than a fixed px value */
