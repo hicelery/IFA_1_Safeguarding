@@ -56,6 +56,12 @@ I used HTML and CSS validators, which highlighted any accessibility issues and o
 Following deployment to live, I manually tested functionality against my user stories, and noted some responsive sizing issues, and an issue with navbar functionality. After recording these in my project board, I deployed fixes leveraging AI for more involved changes.
 
 The first pass lighthouse testing results are as follows:
+<img width="1566" height="1040" alt="image" src="https://github.com/user-attachments/assets/c6563e6b-7761-4da2-9953-9db7ba0e950d" />
+<img width="728" height="985" alt="image" src="https://github.com/user-attachments/assets/307c4449-1275-4719-a491-fd011e612fe9" />
+
+<img width="760" height="928" alt="image" src="https://github.com/user-attachments/assets/627de51a-89f6-4319-9463-dc02cf6c9fa0" />
+
+
 
 From this, we can see already our website is performant and accessible, due to leveraging webp assets and good use of semantic HTML. The largest suggested improvements come from external code libraries (bootstrap and google fonts), and the hosting service used (github pages). These are not appropriate improvements for the scope of this project. Actionable changes suggested focus on improving image delivery: many assets are saved as png and can have the resolution lowered without visible effect.
 
