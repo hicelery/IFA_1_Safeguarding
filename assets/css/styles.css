@@ -122,10 +122,19 @@ section {
     #concern-banner {
         text-align: left !important;
     }
+
+    #action {
+        min-height: 350px;
+        font-size: larger;
+        line-height: 1.75;
+    } /*maintain min height, and raise font size for action section on larger screens*/
 }
 
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+    #signsgrid {
+        max-height: 100vh;
+    } /*maintain max height for signs section on larger screens*/
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
