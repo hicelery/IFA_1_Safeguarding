@@ -21,6 +21,10 @@
     font-style: semibold;
 }
 
+.highlight {
+    color: rgb(0, 0, 166);
+}
+
 body {
     font-family: var(--primary-font);
     max-width: 100%;
