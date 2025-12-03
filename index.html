@@ -20,8 +20,8 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!--nav bar-->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
-        <div class="container-fluid">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="" alt="SAFEguarding" class="logo" />
             </a>
@@ -35,17 +35,17 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#safeguarding_section">What is safeguarding?</a>
+                        <a class="nav-link" href="index.html#safeguarding_section">What is safeguarding?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#signs_section">Signs to watch</a>
+                        <a class="nav-link" href="index.html#signs_section">Signs to watch</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#action_section">Action Steps</a>
+                        <a class="nav-link" href="index.html#action_section">Action Steps</a>
                     </li>
                     <!--Make into modal-->
                     <li class="nav-item">
-                        <a href="" class="btn">Speak to someone</a>
+                        <a href="index.html#contact_section" class="btn">Speak to someone</a>
                     </li>
                 </ul>
             </div>
@@ -294,125 +294,126 @@
         </section>
 
         <!-- Important Contacts Card Carousel - displays as block on large screen -->
-        <div class="content-container">
-            <div class="row g-4 infoblock">
-                <div class="col-12 py-5">
-                    <h5 class="text-center display-5 zalando-sans-expanded-impact">
-                        Your safeguarding contacts
-                    </h5>
-                    <p class="lead text-center p-2">
-                        Please contact your safeguarding leads for assistance or
-                        any concerns.
-                    </p>
-                </div>
-                <!--Display Carousel for cards with contact info for smaller screens with autoplay-->
-                <div class="col-12 p-5 d-md-none">
+        <section id="contact_section">
+            <div class="content-container">
+                <div class="row g-4 infoblock">
+                    <div class="col-12 py-5">
+                        <h5 class="text-center display-5 zalando-sans-expanded-impact">
+                            Your safeguarding contacts
+                        </h5>
+                        <p class="lead text-center p-2">
+                            Please contact your safeguarding leads for assistance or
+                            any concerns.
+                        </p>
+                    </div>
+                    <!--Display Carousel for cards with contact info for smaller screens with autoplay-->
+                    <div class="col-12 p-5 d-md-none">
 
-                    <div id="infocarousel" class="carousel slide carousel-fade " data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="card mb-3 text-center">
-                                    <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
-                                        alt="A photo of a person smiling" loading="lazy" />
-                                    <div class="card-body">
-                                        <h3 class="card-title">Name 1</h3>
-                                        <p class="card-text">
-                                            Role and contact details.
-                                        </p>
-                                        <a href="https://www.discord.com" class="btn btn-outline-secondary"
-                                            target="_blank" rel="noopener noreferrer">Contact on Discord</a>
+                        <div id="infocarousel" class="carousel slide carousel-fade " data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="card mb-3 text-center">
+                                        <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
+                                            alt="A photo of a person smiling" loading="lazy" />
+                                        <div class="card-body">
+                                            <h3 class="card-title">Name 1</h3>
+                                            <p class="card-text">
+                                                Role and contact details.
+                                            </p>
+                                            <a href="https://www.discord.com" class="btn btn-outline-secondary"
+                                                target="_blank" rel="noopener noreferrer">Contact on Discord</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card mb-3 text-center">
+                                        <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
+                                            alt="A photo of a person smiling" loading="lazy" />
+                                        <div class="card-body">
+                                            <h3 class="card-title">Name 2</h3>
+                                            <p class="card-text">
+                                                Role and contact details.
+                                            </p>
+                                            <a href="https://www.discord.com" class="btn btn-outline-secondary"
+                                                target="_blank" rel="noopener noreferrer">Contact on Discord</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card mb-3 text-center">
+                                        <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
+                                            alt="A photo of a person smiling" loading="lazy" />
+                                        <div class="card-body">
+                                            <h3 class="card-title">Name 3</h3>
+                                            <p class="card-text">
+                                                Role and contact details.
+                                            </p>
+                                            <a href="https://www.discord.com" class="btn btn-outline-secondary"
+                                                target="_blank" rel="noopener noreferrer">Contact on Discord</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <div class="card mb-3 text-center">
-                                    <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
-                                        alt="A photo of a person smiling" loading="lazy" />
-                                    <div class="card-body">
-                                        <h3 class="card-title">Name 2</h3>
-                                        <p class="card-text">
-                                            Role and contact details.
-                                        </p>
-                                        <a href="https://www.discord.com" class="btn btn-outline-secondary"
-                                            target="_blank" rel="noopener noreferrer">Contact on Discord</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="card mb-3 text-center">
-                                    <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
-                                        alt="A photo of a person smiling" loading="lazy" />
-                                    <div class="card-body">
-                                        <h3 class="card-title">Name 3</h3>
-                                        <p class="card-text">
-                                            Role and contact details.
-                                        </p>
-                                        <a href="https://www.discord.com" class="btn btn-outline-secondary"
-                                            target="_blank" rel="noopener noreferrer">Contact on Discord</a>
-                                    </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#infocarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#infocarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- display as cards for larger than medium screens, no display for smaller screens -->
+                <div class="col-12 d-none d-md-block">
+                    <div class="row px-4">
+                        <!-- Two columns for desktop, 3 for lg screens-->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card text-center">
+                                <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
+                                    alt="A photo of a person smiling" loading="lazy" />
+                                <div class="card-body">
+                                    <h3 class="card-title">Name 1</h3>
+                                    <p class="card-text">Role and contact details.</p>
+                                    <a href="https://www.discord.com" class="btn btn-outline-secondary" target="_blank"
+                                        rel="noopener noreferrer">Contact on Discord</a>
                                 </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#infocarousel"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#infocarousel"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card text-center">
+                                <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
+                                    alt="A photo of a person smiling" loading="lazy" />
+                                <div class="card-body">
+                                    <h3 class="card-title">Name 2</h3>
+                                    <p class="card-text">Role and contact details.</p>
+                                    <a href="https://www.discord.com" class="btn btn-outline-secondary" target="_blank"
+                                        rel="noopener noreferrer">Contact on Discord</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card text-center">
+                                <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
+                                    alt="A photo of a person smiling" loading="lazy" />
+                                <div class="card-body">
+                                    <h3 class="card-title">Name 3</h3>
+                                    <p class="card-text">Role and contact details.</p>
+                                    <a href="https://www.discord.com" class="btn btn-outline-secondary" target="_blank"
+                                        rel="noopener noreferrer">Contact on Discord</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <!-- display as cards for larger than medium screens, no display for smaller screens -->
-            <div class="col-12 d-none d-md-block">
-                <div class="row px-4">
-                    <!-- Two columns for desktop, 3 for lg screens-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card text-center">
-                            <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
-                                alt="A photo of a person smiling" loading="lazy" />
-                            <div class="card-body">
-                                <h3 class="card-title">Name 1</h3>
-                                <p class="card-text">Role and contact details.</p>
-                                <a href="https://www.discord.com" class="btn btn-outline-secondary" target="_blank"
-                                    rel="noopener noreferrer">Contact on Discord</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card text-center">
-                            <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
-                                alt="A photo of a person smiling" loading="lazy" />
-                            <div class="card-body">
-                                <h3 class="card-title">Name 2</h3>
-                                <p class="card-text">Role and contact details.</p>
-                                <a href="https://www.discord.com" class="btn btn-outline-secondary" target="_blank"
-                                    rel="noopener noreferrer">Contact on Discord</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card text-center">
-                            <img src="../assets/image/hero-image.png" class="card-img-top img-fluid"
-                                alt="A photo of a person smiling" loading="lazy" />
-                            <div class="card-body">
-                                <h3 class="card-title">Name 3</h3>
-                                <p class="card-text">Role and contact details.</p>
-                                <a href="https://www.discord.com" class="btn btn-outline-secondary" target="_blank"
-                                    rel="noopener noreferrer">Contact on Discord</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        </section>
         <!-- Need More Information -->
         <!-- Comment out
         <div class="row g-4 infoblock">
