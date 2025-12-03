@@ -90,6 +90,7 @@ section:target {
 .table_custom {
     --bs-table-bg: transparent !important;
     max-width: 900px;
+    font-size: small;
 }
 
 /* Hero section styles */
@@ -167,6 +168,9 @@ section:target {
 
 /* Small screens and up */
 @media screen and (min-width: 576px) {
+    .table_custom {
+        font-size: medium;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -186,10 +190,9 @@ section:target {
         line-height: 1.75;
     } /*maintain min height, and raise font size for action section*/
 
-    .table-responsive {
-        font-size: larger;
-    } /*increase font size for tables*/
+    /*increase font size for tables*/
     .table_custom {
+        font-size: larger;
         max-width: 1080px;
     }
 

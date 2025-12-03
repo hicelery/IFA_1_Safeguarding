@@ -46,7 +46,7 @@
                     </li>
                     <!--Make into modal-->
                     <li class="nav-item">
-                        <a href="index.html#contact_section" class="btn">Speak to someone</a>
+                        <a href="index.html#contact_section">Speak to someone</a>
                     </li>
                 </ul>
             </div>
@@ -56,7 +56,7 @@
         <!-- hero section -->
         <section id="hero" class="hero">
             <div id="hero-content">
-                <h1 class="text-center m-5 hero-text zalando-sans-expanded-normal display-1">
+                <h1 class="text-center m-md-5 mb-5 hero-text zalando-sans-expanded-normal display-1">
                     No Concern Is Too Small
                 </h1>
                 <a class="btn btn-primary zalando-sans-expanded-normal" data-bs-toggle="modal"
@@ -117,7 +117,7 @@
             rgba(0, 212, 255, 0.5) 100%
         );">
                     <!-- What is Safeguarding? -->
-                    <div class="col-12 p-5">
+                    <div class="col-12 px-0 py-3 p-md-5">
                         <h3 class="text-center display-4 zalando-sans-expanded-impact">
                             What is Safeguarding?
                         </h3>
@@ -432,10 +432,15 @@
             .querySelectorAll(".navbar-collapse .nav-link")
             .forEach((link) => {
                 link.addEventListener("click", function (e) {
-                    let section = document.querySelector(e.target.getAttribute("href"));
+                    // Use the clicked link element's href (not e.target which may be a child node)
+                    const href = this.getAttribute("href");
+                    // Get the hash portion even if href contains a path (e.g. index.html#section)
+                    const hash = href ? (new URL(href, window.location.href)).hash : "";
+                    const section = hash ? document.querySelector(hash) : null;
+                    console.log(section);
                     if (section) {
                         e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        const navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
                         window.scroll({
                             top: section.offsetTop - navbarHeight, // Adjust for navbar height
                             behavior: "smooth",
@@ -446,6 +451,7 @@
                     }
                 });
             });
+
     </script>
 
 </body>
