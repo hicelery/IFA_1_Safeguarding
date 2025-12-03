@@ -75,7 +75,7 @@ section:target {
 /* Limit the concern banner image height so it scales to available viewport space */
 
 #concern_banner img {
-    max-height: 45vh;
+    max-height: 75vh;
     width: auto;
     height: auto;
     object-fit: contain;
@@ -119,6 +119,22 @@ section:target {
 #key_elements_table {
     background: none !important;
 }
+.signs_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    min-height: 360px;
+}
+
+#signsgrid img {
+    min-height: 180px;
+    max-height: 20vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
 
 /*add default bs padding to row container*/
 #concern_section {
@@ -131,8 +147,21 @@ section:target {
     padding-top: 0;
 }
 
+/* Contact section */
 #contact_section {
-    max-height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#contact_section .card-img-top,
+#contact_section img {
+    max-height: 20vh;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+#contact_section .card {
+    margin-bottom: 0;
 }
 
 /* Media queries */
@@ -148,6 +177,7 @@ section:target {
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
     #concern_banner {
+        max-height: 50vh;
         text-align: left !important;
     }
 
@@ -170,6 +200,12 @@ section:target {
     #signsgrid {
         max-height: 100vh;
     } /*maintain max height for signs section*/
+    #signsgrid img {
+        max-height: 40vh;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+    }
 
     /* Allow concern section to grow relative to viewport height rather than a fixed px value */
     #concern_section,
