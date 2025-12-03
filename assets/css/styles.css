@@ -2,6 +2,7 @@
     --primary-font: "Zalando Sans Expanded", sans-serif;
 }
 
+/* Font classes */
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -21,18 +22,25 @@
     font-style: semibold;
 }
 
+/*branding color classes*/
 .highlight {
     color: rgb(0, 0, 166);
 }
 
 body {
     font-family: var(--primary-font);
-    max-width: 100%;
-    margin-top: 57px; /* to offset fixed navbar height */
+    padding-top: 57.86px; /* to offset fixed navbar height */
 }
 
 section {
     height: max-content;
+}
+
+/*adds offset for fixed navbar when using anchor links.
+Negative margin covers introduced gap for scrolling away*/
+section:target {
+    padding-top: 57.86px;
+    margin-top: -57.86px;
 }
 
 /*overrides to bootstrap row default margin for better control over layout*/
@@ -49,20 +57,6 @@ section {
     padding-right: calc(1.5rem * 0.5);
     padding-left: calc(1.5rem * 0.5);
 }
-
-/* grid visualisation CSS for testing */
-
-/* grid visualisation CSS for testing 
-.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}
-*/
 
 /* Styling for each info section*/
 .infoblock {
@@ -84,6 +78,7 @@ section {
     max-width: 900px;
 }
 
+/* Hero section styles */
 #hero {
     position: relative;
     height: 85vh;
@@ -102,6 +97,11 @@ section {
     width: 100%;
     z-index: 2;
 }
+
+#navbar {
+    background-color: aliceblue;
+}
+
 #key_elements_table {
     background: none !important;
 }
