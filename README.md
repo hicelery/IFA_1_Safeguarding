@@ -12,6 +12,10 @@ A project plan and outline:
 -   development, smoke testing, deployment
 -   in situe testing, performance and improvements
 
+## User Stories
+
+### User story 1
+
 ## Project Goals
 
 This project aims to use a sleek and bold design to highlight only the most important information.
@@ -27,7 +31,6 @@ https://www.180studios.com/
 
 https://www.loopearplugs.com/
 <img width="1704" height="1324" alt="landing page for an ecommerce site" src="https://github.com/user-attachments/assets/ee62aa16-ec55-4d37-9db9-45e69c57daf1" />
-
 
 ## Solution Design Details
 
@@ -52,3 +55,23 @@ This project is deployed through github pages and follows a simplified agile git
 All feautures must be tested on the 'develop' branch before being considered a release candidate to main. This ensures the deployed project maintains a stable codebase, and provides a scaleable workflow should the project scope increase and more developers were required to join the project.
 
 <img width="600" height="600" alt="gitflow" src="https://github.com/user-attachments/assets/cb90c618-31c4-4622-a640-f5c324d0d7a1" />
+
+## Use of AI in development and project retrospective.
+
+I have used LLM AI tools to stream line the development process with the following features:
+
+-   Uploading website wireframe to create a boilerplate for the page structure
+-   Creation of image assets
+-   Inline edits with github copilot to autocomplete content.
+-   Minor debugging bootstrap grid layout issues through copilot inline chat.
+
+These streamedline the more repetitive development tasks, and in particular building a boilerplate from a wireframe very quickly set up a working base to allow me to concentrate on content and feature development. However, I noticed the models did struggle with mark up and comments present on the wireframe, so some manual intervention was required to have this functioning correctly.
+
+Image creation allowed me to draw a rough draft in paint, and use copilot to render this as a professional quality asset quickly and with no cost. Content updates were some of the most impactful uses of AI in this project from an efficiency perspective, but I note generative text in particular is not a widely deployable use case for commercial sites.
+
+## Use of external resources
+
+https://cssgradient.io/ - To generate css code for background gradients
+https://unsplash.com/ - For hero image assets
+
+No other external code was used in this project.

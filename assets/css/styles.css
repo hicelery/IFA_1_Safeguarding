@@ -23,26 +23,30 @@
 
 body {
     font-family: var(--primary-font);
-}
-/* grid visualisation CSS for testing */
-.hero {
-    position: relative;
-    height: 85vh;
-    background-image: url("../image/unsplashhero.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    max-width: 100%;
+    margin-top: 57px; /* to offset fixed navbar height */
 }
 
-.hero-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    text-decoration: uppercase;
+section {
+    height: max-content;
 }
+
+/*overrides to bootstrap row default margin for better control over layout*/
+.row {
+    margin-top: 0 !important;
+}
+/*not important so that individual columns can override if needed*/
+.row > * {
+    margin-top: 0;
+}
+
+.content-container {
+    height: auto;
+    padding-right: calc(1.5rem * 0.5);
+    padding-left: calc(1.5rem * 0.5);
+}
+
+/* grid visualisation CSS for testing */
 
 /* grid visualisation CSS for testing 
 .container,
@@ -55,33 +59,58 @@ body {
     background-color: lightgray;
 }
 */
-/*pulls container to bottom of hero section*/
-/* centers content vertically in container */
-.content-container {
-    position: relative;
-    align-self: center;
-    margin: 0;
-}
 
 /* Styling for each info section*/
 .infoblock {
-    min-height: 400px;
-    min-width: 100vw;
+    min-width: 0;
     left: 0;
     margin-bottom: 0rem;
+    min-height: max-content;
+    align-items: center !important /* Override Bootstrap align-items for rows */;
+}
+
+/*add custom table class to override bootstrap table bg color*/
+.table_custom {
+    --bs-table-bg: transparent !important;
+}
+
+#hero {
+    position: relative;
+    height: 85vh;
+    background: url("../image/testhero.webp") no-repeat center center;
+    background-size: cover;
+}
+
+#hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-decoration: uppercase;
+    width: 100%;
+    z-index: 2;
+}
+#key_elements_table {
+    background: none !important;
+}
+
+/*add default bs padding to row container*/
+#concern_section {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #concern-banner {
     border-bottom: 2px solid black;
+    padding-top: 0;
 }
 /* Media queries */
 
 /* Small screens and up */
 
 @media screen and (min-width: 576px) {
-    .infoblock {
-        min-height: 350px;
-    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -90,6 +119,9 @@ body {
 
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
+    #concern-banner {
+        text-align: left !important;
+    }
 }
 
 /* xl devices (large desktops, 1200px and up) */
