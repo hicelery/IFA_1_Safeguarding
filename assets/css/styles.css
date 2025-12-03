@@ -19,7 +19,6 @@
     font-family: "Zalando Sans Expanded", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    font-style: semibold;
 }
 
 /*branding color classes*/
@@ -93,7 +92,7 @@ section:target {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    text-decoration: uppercase;
+    text-transform: uppercase;
     width: 100%;
     z-index: 2;
 }
