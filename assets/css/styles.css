@@ -70,8 +70,14 @@ section {
 }
 
 /*add custom table class to override bootstrap table bg color*/
+.table-responsive {
+    display: flex;
+    justify-content: center;
+}
+
 .table_custom {
     --bs-table-bg: transparent !important;
+    max-width: 900px;
 }
 
 #hero {
@@ -124,19 +130,47 @@ section {
     }
 
     #action {
-        min-height: 350px;
+        min-height: 400px;
         font-size: larger;
         line-height: 1.75;
-    } /*maintain min height, and raise font size for action section on larger screens*/
+    } /*maintain min height, and raise font size for action section*/
+
+    .table-responsive {
+        font-size: larger;
+    } /*increase font size for tables*/
+    .table_custom {
+        max-width: 1080px;
+    }
 }
 
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
     #signsgrid {
         max-height: 100vh;
-    } /*maintain max height for signs section on larger screens*/
+    } /*maintain max height for signs section*/
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
+}
+
+/* custom breakpoint: four columns at 1600px and above */
+@media screen and (min-width: 1600px) {
+    /* mirror Bootstrap's row-cols-4 behavior scoped to this breakpoint */
+    .row-cols-1600-4 > * {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+/* full screen desktops, 1920px and up */
+@media screen and (min-width: 1920px) {
+    .table-responsive {
+        font-size: 1.375rem;
+    } /*increase font size for tables*/
+
+    .table_custom {
+        max-width: 1300px;
+        line-height: 1.5;
+    }
 }
