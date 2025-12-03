@@ -49,6 +49,18 @@ Further information and additional resources are then presented, as this is less
 
 ## Testing
 
+Preliminary smoke testing was conducted on a local live server, before deploying tested features to the hosted website on github pages.
+
+I used HTML and CSS validators, which highlighted any accessibility issues and one missing src attribute for navbar logo.
+
+Following deployment to live, I manually tested functionality against my user stories, and noted some responsive sizing issues, and an issue with navbar functionality. After recording these in my project board, I deployed fixes leveraging AI for more involved changes.
+
+The first pass lighthouse testing results are as follows:
+
+From this, we can see already our website is performant and accessible, due to leveraging webp assets and good use of semantic HTML. The largest suggested improvements come from external code libraries (bootstrap and google fonts), and the hosting service used (github pages). These are not appropriate improvements for the scope of this project. Actionable changes suggested focus on improving image delivery: many assets are saved as png and can have the resolution lowered without visible effect.
+
+In future I would endeavour to use webp fileformat for a greater number of images.
+
 ## Deployment and workflow
 
 This project is deployed through github pages and follows a simplified agile gitflow methodology. Main branch is preserved as the deployed and live branch, whilst all development work will be conducted on feature branches. Code deployments to the live project environment will only available through a pull request to main.
