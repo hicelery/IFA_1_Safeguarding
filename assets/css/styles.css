@@ -161,6 +161,10 @@ section {
         flex: 0 0 25%;
         max-width: 25%;
     }
+    #signsgrid {
+        min-height: 650px;
+        align-items: center;
+    }
 }
 
 /* full screen desktops, 1920px and up */
