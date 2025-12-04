@@ -44,27 +44,32 @@ An external user seeks clear and easy-to-understand information on safeguarding 
 - Bullet point list for action steps
 
 Solution: high-contrast bullet point info, with engaging graphics to break-up content flow.<img width="880" height="308" alt="image" src="https://github.com/user-attachments/assets/cf4dd5b4-3ab4-4518-b74f-2c60bcaae14b" />
-<img width="940" height="882" alt="image" src="https://github.com/user-attachments/assets/2d9b5402-3733-4488-bea8-5925f0c64acb" />
+<img width="1600" height="482" alt="image" src="https://github.com/user-attachments/assets/30336319-a9df-431c-8c2f-a51929f1f822" />
+
 
 ### User Story 2 - Straightforward content
 Site owner seeks straightforward webpage outlining key principles using clear structured content.
 #### User goals:
-- [ ] Outline key principles
-- [ ] Content is clearly divided into thematic sections
-- [ ]  Each section is easily differentiable.
+- Outline key principles
+- Content is clearly divided into thematic sections
+- Each section is easily differentiable.
 #### Acceptance criteria:
-- [ ] What is safeguarding section present
-- [ ] Key principles list.
-- [ ] New but complementary colour theme for each section.
+- What is safeguarding section present
+- Key principles list.
+- New but complementary colour theme for each section.
+
+Solution: Key principles outlined, with consistent seciton styling, but a discernable colour scheme difference.
+<img width="600" height="684" alt="image" src="https://github.com/user-attachments/assets/b1113447-e3cb-417b-99c1-08b21683ffb9" />
+
 ### User Story 3 - intuitive layout
 Site owner seeks simple. intuitive layout making information easy to access.
 #### User goals:
-- [ ] Ability to jump to any given section
-- [ ] Webpage flows in a logical manner - what is safeguarding -> signs -> action steps.
+- Ability to jump to any given section
+- Webpage flows in a logical manner - what is safeguarding -> signs -> action steps.
 #### Acceptance criteria:
-- [ ] Fixed navbar to allow easy navigation
-- [ ] Navbar links jump to top of section.
-- [ ] Webpage flows in a logical manner - what is safeguarding -> signs -> action steps, across many devices.
+- Fixed navbar to allow easy navigation
+- Navbar links jump to top of section.
+- Webpage flows in a logical manner - what is safeguarding -> signs -> action steps, across many devices.
 
 ## Solution Design Details
 
