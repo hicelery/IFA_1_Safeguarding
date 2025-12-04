@@ -58,7 +58,7 @@ Site owner seeks straightforward webpage outlining key principles using clear st
 - Key principles list.
 - New but complementary colour theme for each section.
 
-Solution: Key principles outlined, with consistent seciton styling, but a discernable colour scheme difference.
+Solution: Key principles outlined, with consistent section styling, but a discernable colour scheme difference.
 <img width="600" height="684" alt="image" src="https://github.com/user-attachments/assets/b1113447-e3cb-417b-99c1-08b21683ffb9" />
 
 ### User Story 3 - intuitive layout
@@ -70,6 +70,8 @@ Site owner seeks simple. intuitive layout making information easy to access.
 - Fixed navbar to allow easy navigation
 - Navbar links jump to top of section.
 - Webpage flows in a logical manner - what is safeguarding -> signs -> action steps, across many devices.
+
+Solution: Fixed navbar and page structe as outlined in design details below:
 
 ## Solution Design Details
 
@@ -119,12 +121,16 @@ In future I would endeavour to use webp file format for a greater number of imag
 
 ## Deployment and workflow
 
-This project is deployed through github pages and follows a simplified agile gitflow methodology, with each day of the project being considered one 'sprint'.
-With this workflow, Main branch is preserved as the deployed and live branch, whilst all development work will be conducted on feature branches. Code deployments to the live project environment will only available through a pull request to main. This enables a CI/CD approach.
-All feautures must be tested on the 'develop' branch before being considered a release candidate to main. This ensures the deployed project maintains a stable codebase, and provides a scaleable workflow should the project scope increase and more developers were required to join the project.
+This project is deployed through github pages and follows a simplified agile gitflow methodology: 
+- each day of the project being considered one 'sprint'.
+- Main branch is preserved as the deployed and live branch, whilst all development work will be conducted on feature branches.
+-  Code deployments to the live project environment will only available through a pull request to main. This enables a CI/CD approach.
+-  All feautures must be tested on the 'develop' branch before being considered a release candidate to main.
+This ensures the deployed project maintains a stable codebase, and provides a scaleable workflow should the project scope increase and more developers were required to join the project.
 
-Exmaple of gitflow:
-<img width="600" height="600" alt="gitflow" src="https://github.com/user-attachments/assets/cb90c618-31c4-4622-a640-f5c324d0d7a1" />
+Example of gitflow:
+<img width="790" height="322" alt="278049" src="https://github.com/user-attachments/assets/44e137c1-28ac-4581-baab-3ca3dcc6eb54" />
+
 
 ## Use of AI in development and project retrospective.
 
