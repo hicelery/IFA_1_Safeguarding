@@ -1,5 +1,6 @@
 :root {
     --primary-font: "Zalando Sans Expanded", sans-serif;
+    --highlight-color: rgb(0, 0, 166);
 }
 
 /* Font classes */
@@ -33,6 +34,26 @@ body {
 
 section {
     height: max-content;
+}
+
+/* Buttons */
+
+.custom-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--highlight-color);
+    color: #1a1919;
+    background-color: white;
+    transition: 300ms;
+    box-shadow: 0 0 5px #f5f3f0;
+}
+
+.custom-button-filled:active {
+    transition: 0.2s;
 }
 
 /*adds offset for fixed navbar when using anchor links.
@@ -233,7 +254,7 @@ section:target {
         max-width: 25%;
     }
     #signsgrid {
-        min-height: 650px;
+        min-height: 680px;
         align-items: center;
     }
 }
