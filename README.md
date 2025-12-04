@@ -42,7 +42,7 @@ An external user seeks clear and easy-to-understand information on safeguarding 
 - [ ] No text paragraphs longer than 3 sentences.
 - [ ] Section for Signs to watch for
 - [ ] Bullet point list for action steps
-### User Story 2
+### User Story 2 - Straightforward content
 Site owner seeks straightforward webpage outlining key principles using clear structured content.
 #### User goals:
 - [ ] Outline key principles
@@ -52,7 +52,7 @@ Site owner seeks straightforward webpage outlining key principles using clear st
 - [ ] What is safeguarding section present
 - [ ] Key principles list.
 - [ ] New but complementary colour theme for each section.
-### User Story 3
+### User Story 3 - intuitive layout
 Site owner seeks simple. intuitive layout making information easy to access.
 #### User goals:
 - [ ] Ability to jump to any given section
