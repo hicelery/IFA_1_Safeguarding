@@ -43,7 +43,7 @@ An external user seeks clear and easy-to-understand information on safeguarding 
 - Section for Signs to watch for
 - Bullet point list for action steps
 
-Solution: high-contrast bullet point info, with engaging graphics to break-up content flow.<img width="880" height="308" alt="image" src="https://github.com/user-attachments/assets/cf4dd5b4-3ab4-4518-b74f-2c60bcaae14b" />
+Solution: high-contrast bullet point info, with engaging graphics to break-up content flow. <img width="880" height="308" alt="image" src="https://github.com/user-attachments/assets/cf4dd5b4-3ab4-4518-b74f-2c60bcaae14b" />
 <img width="1600" height="482" alt="image" src="https://github.com/user-attachments/assets/30336319-a9df-431c-8c2f-a51929f1f822" />
 
 
@@ -102,7 +102,9 @@ Preliminary smoke testing was conducted on a local live server, before deploying
 
 
 I used w3 and jigsaw HTML and CSS validators, which highlighted any accessibility issues and one missing src attribute for navbar logo.
-**Important:** These validators return info warnings for trailing slashes in self-closing elements (<br/> <img/> etc) but I have chosen to retain these for better code readability and compatibility with XHTML.
+
+
+These validators return info warnings for trailing slashes in self-closing elements (<br/> <img/> etc) but I have chosen to retain these for better code readability and compatibility with XHTML.
 <img width="600" height="98" alt="image" src="https://github.com/user-attachments/assets/79deee82-21bf-447d-bfa1-0923bc06cc93" />
 
 Following deployment to live, I manually tested functionality against my user stories, and noted some responsive sizing issues, and an issue with navbar functionality. After recording these in my project board, I deployed fixes leveraging AI for more involved changes.
@@ -110,10 +112,6 @@ Following deployment to live, I manually tested functionality against my user st
 The first pass lighthouse testing results are as follows:
 <img width="1355" height="900" alt="image" src="https://github.com/user-attachments/assets/c6563e6b-7761-4da2-9953-9db7ba0e950d" />
 <img width="728" height="985" alt="image" src="https://github.com/user-attachments/assets/307c4449-1275-4719-a491-fd011e612fe9" />
-
-<img width="760" height="928" alt="image" src="https://github.com/user-attachments/assets/627de51a-89f6-4319-9463-dc02cf6c9fa0" />
-
-
 
 From this, we can see already our website is performant and accessible, due to leveraging webp assets and good use of semantic HTML. The largest suggested improvements come from external code libraries (bootstrap and google fonts), and the hosting service used (github pages). These are not appropriate improvements for the scope of this project. Actionable changes suggested focus on improving image delivery: many assets are saved as png and can have the resolution lowered without visible effect.
 
