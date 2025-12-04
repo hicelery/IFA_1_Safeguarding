@@ -1,4 +1,4 @@
-# IFA_1_Safeguarding
+<img width="843" height="138" alt="image" src="https://github.com/user-attachments/assets/79deee82-21bf-447d-bfa1-0923bc06cc93" /># IFA_1_Safeguarding
 
 ## 📋 Project Overview
 
@@ -12,10 +12,6 @@ A project plan and outline:
 -   development, smoke testing, deployment
 -   in situe testing, performance and improvements
 
-## User Stories
-
-### User story 1
-
 ## Project Goals
 
 This project aims to use a sleek and bold design to highlight only the most important information.
@@ -27,21 +23,66 @@ References and inspirations include:
 https://talktofrank.com/
 
 https://www.180studios.com/
-<img width="1702" height="1322" alt="landing page for 180 studios" src="https://github.com/user-attachments/assets/53b588b4-c5ce-49db-b610-026ec2606e99" />
+<img width="1200" height="932" alt="landing page for 180 studios" src="https://github.com/user-attachments/assets/53b588b4-c5ce-49db-b610-026ec2606e99" />
 
 https://www.loopearplugs.com/
-<img width="1704" height="1324" alt="landing page for an ecommerce site" src="https://github.com/user-attachments/assets/ee62aa16-ec55-4d37-9db9-45e69c57daf1" />
+<img width="1200" height="932" alt="landing page for an ecommerce site" src="https://github.com/user-attachments/assets/ee62aa16-ec55-4d37-9db9-45e69c57daf1" />
+
+## User Stories
+
+The needs of the users I will consider:
+
+### User story 1 - digestible information
+An external user seeks clear and easy-to-understand information on safeguarding practices.
+####User goals:
+- [ ] Understand how to recognise concerns
+- [ ] Understand how to respond to concerns
+- [ ] Easy to understand
+####Acceptance criteria:
+- [ ] Text is high-contrast and bold
+- [ ] No text paragraphs longer than 3 sentences.
+- [ ] Section for Signs to watch for
+- [ ] Bullet point list for action steps
+
+
+###User Story 2
+Site owner seeks straightforward webpage outlining key principles using clear structured content.
+####User goals:
+- [ ] Outline key principles
+- [ ] Content is clearly divided into thematic sections
+- [ ]  Each section is easily differentiable.
+####Acceptance criteria:
+- [ ] What is safeguarding section present
+- [ ] Key principles list.
+- [ ] New but complementary colour theme for each section.
+
+###User Story 3
+Site owner seeks simple. intuitive layout making information easy to access.
+####User goals:
+- [ ] Ability to jump to any given section
+- [ ] Webpage flows in a logical manner - what is safeguarding -> signs -> action steps.
+####Acceptance criteria:
+- [ ] Fixed navbar to allow easy navigation
+- [ ] Navbar links jump to top of section.
+- [ ] Webpage flows in a logical manner - what is safeguarding -> signs -> action steps, across many devices.
 
 ## Solution Design Details
 
-I will create a large and impactful landing hero, with a call-to-action button. This will set the tone for the website and allow an immediate re-direct for users that need safeguarding help. The main content of the page will appear immediately below this, encouraging the user to scroll.
-This image will use lower-quality/file size for smaller breakpoint screens to speed loading.
+To best meet my user goals, I will focus on a simple, bold design focusing on presenting information in a clear manner.
 
-The main content will use a bootstrap contrain to make our 3 content sections responsive, each with 2 cards grouped by background colour.
+A fixed navbar will be present, allowing the user to navigate easily.
+
+I will create a large and impactful landing hero, with a call-to-action button. followed by three content sections:
+- What is safeguarding
+- Signs to spot
+- Action steps
+  
+The main content of the page will peer into the view port immediately below the hero, encouraging the user to scroll.
+
+The main content will use a bootstrap contrain to make our 3 content sections responsive, each with 2 flexboxes grouped by background colour.
 For desktops this will show as a 2x3 grid, and fold to a single 1x6 column on tablets and below.
-<img width="1456" height="986" alt="image" src="https://github.com/user-attachments/assets/12c85a70-d213-43ac-b118-ed42ffcc53ef" />
-
 These will be full width and borderless to give the page a seamless feel.
+<img width="1456" height="986" alt="image" src="https://github.com/user-attachments/assets/12c85a70-d213-43ac-b118-ed42ffcc53ef" />
 
 Immediately following a the 'action steps' a CTA with an external redirect is presented, giving the user immediate help should they need. This remains at 100% width across all screens to keep this as proximal as possible.
 
@@ -49,9 +90,11 @@ Further information and additional resources are then presented, as this is less
 
 ## Testing
 
-Preliminary smoke testing was conducted on a local live server, before deploying tested features to the hosted website on github pages.
+Preliminary smoke testing was conducted on a local live server, before deploying tested features to the hosted website on github pages. Responsivity was tested across a range of mobile, tablet and desktop screens, and can be observed at: https://ui.dev/amiresponsive?url=https://hicelery.github.io/IFA_1_Safeguarding/
 
-I used HTML and CSS validators, which highlighted any accessibility issues and one missing src attribute for navbar logo.
+
+I used w3 and jigsaw HTML and CSS validators, which highlighted any accessibility issues and one missing src attribute for navbar logo.
+**Important:** These validators return info warnings for trailing slashes in self-closing elements (<br/> <img/> etc) but I have chosen to retain these for better code readability and compatibility with XHTML.
 
 Following deployment to live, I manually tested functionality against my user stories, and noted some responsive sizing issues, and an issue with navbar functionality. After recording these in my project board, I deployed fixes leveraging AI for more involved changes.
 
@@ -65,13 +108,15 @@ The first pass lighthouse testing results are as follows:
 
 From this, we can see already our website is performant and accessible, due to leveraging webp assets and good use of semantic HTML. The largest suggested improvements come from external code libraries (bootstrap and google fonts), and the hosting service used (github pages). These are not appropriate improvements for the scope of this project. Actionable changes suggested focus on improving image delivery: many assets are saved as png and can have the resolution lowered without visible effect.
 
-In future I would endeavour to use webp fileformat for a greater number of images.
+In future I would endeavour to use webp file format for a greater number of images.
 
 ## Deployment and workflow
 
-This project is deployed through github pages and follows a simplified agile gitflow methodology. Main branch is preserved as the deployed and live branch, whilst all development work will be conducted on feature branches. Code deployments to the live project environment will only available through a pull request to main.
+This project is deployed through github pages and follows a simplified agile gitflow methodology, with each day of the project being considered one 'sprint'.
+With this workflow, Main branch is preserved as the deployed and live branch, whilst all development work will be conducted on feature branches. Code deployments to the live project environment will only available through a pull request to main. This enables a CI/CD approach.
 All feautures must be tested on the 'develop' branch before being considered a release candidate to main. This ensures the deployed project maintains a stable codebase, and provides a scaleable workflow should the project scope increase and more developers were required to join the project.
 
+Exmaple of gitflow:
 <img width="600" height="600" alt="gitflow" src="https://github.com/user-attachments/assets/cb90c618-31c4-4622-a640-f5c324d0d7a1" />
 
 ## Use of AI in development and project retrospective.
