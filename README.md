@@ -34,34 +34,34 @@ The needs of the users I will consider:
 
 ### User story 1 - digestible information
 An external user seeks clear and easy-to-understand information on safeguarding practices.
-**User goals:**
+#### User goals:
 - [ ] Understand how to recognise concerns
 - [ ] Understand how to respond to concerns
 - [ ] Easy to understand
-**Acceptance criteria:**
+#### Acceptance criteria:
 - [ ] Text is high-contrast and bold
 - [ ] No text paragraphs longer than 3 sentences.
 - [ ] Section for Signs to watch for
 - [ ] Bullet point list for action steps
 
 
-###User Story 2
+### User Story 2
 Site owner seeks straightforward webpage outlining key principles using clear structured content.
-**User goals:**
+#### User goals:
 - [ ] Outline key principles
 - [ ] Content is clearly divided into thematic sections
 - [ ]  Each section is easily differentiable.
-**Acceptance criteria:**
+#### Acceptance criteria:
 - [ ] What is safeguarding section present
 - [ ] Key principles list.
 - [ ] New but complementary colour theme for each section.
 
-###User Story 3
+### User Story 3
 Site owner seeks simple. intuitive layout making information easy to access.
-**User goals:**
+#### User goals:
 - [ ] Ability to jump to any given section
 - [ ] Webpage flows in a logical manner - what is safeguarding -> signs -> action steps.
-**Acceptance criteria:**
+#### Acceptance criteria:
 - [ ] Fixed navbar to allow easy navigation
 - [ ] Navbar links jump to top of section.
 - [ ] Webpage flows in a logical manner - what is safeguarding -> signs -> action steps, across many devices.
