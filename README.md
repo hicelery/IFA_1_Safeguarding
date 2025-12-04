@@ -31,7 +31,6 @@ https://www.loopearplugs.com/
 ## User Stories
 
 The needs of the users I will consider:
-
 ### User story 1 - digestible information
 An external user seeks clear and easy-to-understand information on safeguarding practices.
 #### User goals:
@@ -43,8 +42,6 @@ An external user seeks clear and easy-to-understand information on safeguarding 
 - [ ] No text paragraphs longer than 3 sentences.
 - [ ] Section for Signs to watch for
 - [ ] Bullet point list for action steps
-
-
 ### User Story 2
 Site owner seeks straightforward webpage outlining key principles using clear structured content.
 #### User goals:
@@ -55,7 +52,6 @@ Site owner seeks straightforward webpage outlining key principles using clear st
 - [ ] What is safeguarding section present
 - [ ] Key principles list.
 - [ ] New but complementary colour theme for each section.
-
 ### User Story 3
 Site owner seeks simple. intuitive layout making information easy to access.
 #### User goals:
