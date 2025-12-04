@@ -34,14 +34,18 @@ The needs of the users I will consider:
 ### User story 1 - digestible information
 An external user seeks clear and easy-to-understand information on safeguarding practices.
 #### User goals:
-- [ ] Understand how to recognise concerns
-- [ ] Understand how to respond to concerns
-- [ ] Easy to understand
+- Understand how to recognise concerns
+- Understand how to respond to concerns
+- Easy to understand
 #### Acceptance criteria:
-- [ ] Text is high-contrast and bold
-- [ ] No text paragraphs longer than 3 sentences.
-- [ ] Section for Signs to watch for
-- [ ] Bullet point list for action steps
+- Text is high-contrast and bold
+- No text paragraphs longer than 3 sentences.
+- Section for Signs to watch for
+- Bullet point list for action steps
+
+Solution: high-contrast bullet point info, with engaging graphics to break-up content flow.<img width="880" height="308" alt="image" src="https://github.com/user-attachments/assets/cf4dd5b4-3ab4-4518-b74f-2c60bcaae14b" />
+<img width="940" height="882" alt="image" src="https://github.com/user-attachments/assets/2d9b5402-3733-4488-bea8-5925f0c64acb" />
+
 ### User Story 2 - Straightforward content
 Site owner seeks straightforward webpage outlining key principles using clear structured content.
 #### User goals:
@@ -83,6 +87,7 @@ These will be full width and borderless to give the page a seamless feel.
 Immediately following a the 'action steps' a CTA with an external redirect is presented, giving the user immediate help should they need. This remains at 100% width across all screens to keep this as proximal as possible.
 
 Further information and additional resources are then presented, as this is less time sensitive than a user needing safeguarding assistance.
+To differentiate these sections from the informational content, I have moved to a black-on-white colour scheme giving a visual difference.
 
 ## Testing
 
