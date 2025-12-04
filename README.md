@@ -108,7 +108,7 @@ I used w3 and jigsaw HTML and CSS validators, which highlighted any accessibilit
 Following deployment to live, I manually tested functionality against my user stories, and noted some responsive sizing issues, and an issue with navbar functionality. After recording these in my project board, I deployed fixes leveraging AI for more involved changes.
 
 The first pass lighthouse testing results are as follows:
-<img width="1566" height="1040" alt="image" src="https://github.com/user-attachments/assets/c6563e6b-7761-4da2-9953-9db7ba0e950d" />
+<img width="1355" height="900" alt="image" src="https://github.com/user-attachments/assets/c6563e6b-7761-4da2-9953-9db7ba0e950d" />
 <img width="728" height="985" alt="image" src="https://github.com/user-attachments/assets/307c4449-1275-4719-a491-fd011e612fe9" />
 
 <img width="760" height="928" alt="image" src="https://github.com/user-attachments/assets/627de51a-89f6-4319-9463-dc02cf6c9fa0" />
@@ -122,13 +122,14 @@ In future I would endeavour to use webp file format for a greater number of imag
 ## Deployment and workflow
 
 This project is deployed through github pages and follows a simplified agile gitflow methodology: 
-- each day of the project being considered one 'sprint'.
+- Each day of the project being considered one 'sprint'.
 - Main branch is preserved as the deployed and live branch, whilst all development work will be conducted on feature branches.
--  Code deployments to the live project environment will only available through a pull request to main. This enables a CI/CD approach.
--  All feautures must be tested on the 'develop' branch before being considered a release candidate to main.
+- Code deployments to the live project environment will only available through a pull request to main. This enables a CI/CD approach.
+- All feautures must be tested on the 'develop' branch before being considered a release candidate to main.
 This ensures the deployed project maintains a stable codebase, and provides a scaleable workflow should the project scope increase and more developers were required to join the project.
 
 Example of gitflow:
+
 <img width="790" height="322" alt="278049" src="https://github.com/user-attachments/assets/44e137c1-28ac-4581-baab-3ca3dcc6eb54" />
 
 
